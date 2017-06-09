@@ -1,0 +1,15 @@
+{
+    "port" : 8080,
+
+	"token_secret" : "ABCDEFGHIJK",
+	"token_expiry_interval" : 1000,
+	"refresh_token_expiry_interval": 10000000,
+
+	"db_name" : "go-ws",
+	"db_host" : "127.0.0.1",
+    "db_port" : 3306,
+    "db_user" : "abcd",
+    "db_password" : "123456",
+	"db_max_open_conns" : 20,
+    "db_max_idle_conns" : 0
+}
