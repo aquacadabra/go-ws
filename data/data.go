@@ -11,6 +11,7 @@ import (
 
 type DataProvider interface {
 	Hello() (string, error)
+	FindAccountById(id int64) (*entity.Account, error)
 }
 
 type DB struct {
